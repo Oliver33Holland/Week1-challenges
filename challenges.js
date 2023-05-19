@@ -31,13 +31,13 @@ console.log("you rolled a six")
 }
 }
 
-let password = 'Password123'
-    if(password = ('<6')){
-    console.log ("password is too short")
-    function checkFunction(password)
-    }else if(password ('>6')){
-  console.log ("thank you")
-    }
+// let password = 'Password123'
+//     if(password = ('<6')){
+//     console.log ("password is too short")
+//     function checkFunction(password)
+//     }else if(password ('>6')){
+//   console.log ("thank you")
+//     }
 
 let bool1 = Boolean(10>9)
 if(Boolean(10>9)){
@@ -57,3 +57,10 @@ if(num = 15/3){
 
 
 
+const password = 'passgg';
+
+if(password.length <= 6){
+    console.log('password too short');
+}else if(password.length >= 6){
+    console.log('thank you');
+} 
